@@ -84,6 +84,9 @@ importers:
       '@types/react-dom':
         specifier: ^18
         version: 18.3.0
+      '@types/react-typing-effect':
+        specifier: ^2.0.7
+        version: 2.0.7
       '@types/react-vertical-timeline-component':
         specifier: ^3.3.6
         version: 3.3.6
@@ -990,6 +993,9 @@ packages:
 
   '@types/react-dom@18.3.0':
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
+
+  '@types/react-typing-effect@2.0.7':
+    resolution: {integrity: sha512-HSSH1sQ72wp0Sw5mghd/ddzN2sL+wltExNkUh/DGjXIO5rTW55K9KuGamkoO3Dccvi74ZLyy42Wgr/Mv3BBc9g==}
 
   '@types/react-vertical-timeline-component@3.3.6':
     resolution: {integrity: sha512-OUvyPXRjXvUD/SNLO0CW0GbIxVF32Ios5qHecMSfw6kxnK1cPULD9NV80EuqZ3WmS/s6BgbcwmN8k4ISb3akhQ==}
@@ -3488,6 +3494,10 @@ snapshots:
   '@types/prop-types@15.7.12': {}
 
   '@types/react-dom@18.3.0':
+    dependencies:
+      '@types/react': 18.3.3
+
+  '@types/react-typing-effect@2.0.7':
     dependencies:
       '@types/react': 18.3.3
 
