@@ -39,7 +39,7 @@ const MainNav: NextPage<Props> = (props) => {
   };
 
   return (
-    <div className="flex flex-row justify-around items-center py-4">
+    <div className="flex justify-around items-center py-4">
       <Image
         src="/me.png"
         width={50}

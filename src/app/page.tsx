@@ -1,26 +1,49 @@
 "use client";
 
+import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 import * as React from "react";
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
-import { useTheme } from "next-themes";
-
-// import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger
-} from "@/components/ui/dropdown-menu";
-import MainNav from "@/components/main-nav";
-import { Flex, Text, Button } from "@radix-ui/themes";
+import ReactTypingEffect from "react-typing-effect";
 
 export default function Home() {
   return (
     <div>
-      <Flex direction="column" gap="2">
-        <Text>Hello from Radix Themes :)</Text>
-        <Button>Let us go</Button>
-      </Flex>
+      <div className="position fixed right-10 top-1/2 transform -translate-y-1/2 px-4">
+        <Link href={"https://github.com/bocchianaba"} className="py-4">
+          <GitHubLogoIcon height={"50"} width={"50"} />
+        </Link>
+        <Link
+          className="py-4"
+          href={
+            "https://www.linkedin.com/in/adrien-jean-bocchi-noa-anaba-01b226187"
+          }
+        >
+          <LinkedInLogoIcon height={"50"} width={"50"} />
+        </Link>
+      </div>
+      <div>
+        <div className="flex justify-center flex-col text-center">
+          <h1 className="first-line">Hello!</h1>
+          <h2 className="second_line">
+            I am <strong>Adrien NOA</strong>
+          </h2>
+          <h3>
+            <ReactTypingEffect
+              text={[
+                "JavaScript Fullstack Developer",
+                "Python Backend Developer",
+                "Java Backend Developer",
+                "Odoo Frontend Developer",
+                "Odoo Integrator",
+                "Software Engineer ..."
+              ]}
+              className="typical"
+              speed="100"
+              eraseDelay="2000"
+            />
+          </h3>
+        </div>
+      </div>
     </div>
   );
 }
