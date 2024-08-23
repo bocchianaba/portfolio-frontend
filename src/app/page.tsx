@@ -38,8 +38,10 @@ export default function Home() {
                 "Software Engineer ..."
               ]}
               className="typical"
-              speed="100"
-              eraseDelay="2000"
+              eraseDelay={2000}
+              speed={100} // Ensure this is a number
+              eraseSpeed={50} // Ensure this is a number
+              typingDelay={200} // Ensure this is a number
             />
           </h3>
         </div>
