@@ -67,3 +67,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.page_title {
+  font-size: large;
+  font: 45px bold;
+}

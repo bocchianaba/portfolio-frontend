@@ -21,8 +21,7 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 //   title: "Bocchi Anaba Portfolio",
 //   description: "Powered by NOA ANABA Adrien Jean Bocchi"
 // };
-// import particleOptions from "@/lib/utils";
-import particle from "@/lib/utils";
+import { particleOptions } from "@/lib/utils";
 
 export default function RootLayout({
   children
@@ -69,7 +68,7 @@ export default function RootLayout({
             <Particles
               id="tsparticles"
               particlesLoaded={particlesLoaded}
-              options={particle}
+              options={particleOptions}
             />
           )}
           <MainNav eventTogglePanel={() => togglePanel()} />

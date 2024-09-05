@@ -7,22 +7,20 @@ import ReactTypingEffect from "react-typing-effect";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col justify-around ">
       <div className="position fixed right-10 top-1/2 transform -translate-y-1/2 px-4">
         <Link href={"https://github.com/bocchianaba"} className="py-4">
           <GitHubLogoIcon height={"50"} width={"50"} />
         </Link>
         <Link
           className="py-4"
-          href={
-            "https://www.linkedin.com/in/adrien-jean-bocchi-noa-anaba-01b226187"
-          }
+          href={"https://www.linkedin.com/in/adrien-noa-311b50236"}
         >
           <LinkedInLogoIcon height={"50"} width={"50"} />
         </Link>
       </div>
-      <div>
-        <div className="flex justify-center flex-col text-center">
+      <div className="mt-10 page_title">
+        <div className="flex justify-center items-center align-middle flex-col text-center">
           <h1 className="first-line">Hello!</h1>
           <h2 className="second_line">
             I am <strong>Adrien NOA</strong>
