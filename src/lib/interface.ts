@@ -6,4 +6,5 @@ interface Project {
   category: string[];
   purpose: string;
   role: string;
+  thirdParty: string[];
 }

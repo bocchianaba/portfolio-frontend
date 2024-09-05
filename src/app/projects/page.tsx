@@ -27,6 +27,7 @@ const ProjectPage: NextPage<Props> = ({}) => {
             category={project.category}
             purpose={project.purpose}
             role={project.role}
+            thirdParty={project.thirdParty}
           />
         ))}
       </div>

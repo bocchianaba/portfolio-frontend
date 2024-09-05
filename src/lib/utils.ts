@@ -79,10 +79,18 @@ const projectList: Project[] = [
     name: "GAV",
     role: "Backend Developer ",
     tasks: ["implementation, test and documentation of Transfer microservice"],
-    imgSrc: [""],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Spring Boot"],
     category: ["Web hook", "Api Restful"],
-    purpose: ""
+    purpose: "",
+    thirdParty: ["CamCCul", "Gimac", "iTech"]
   },
   {
     name: "Agent Financing",
@@ -98,37 +106,76 @@ const projectList: Project[] = [
       "task repartition",
       "testing of the system"
     ],
-    imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Spring Boot", "React"],
     category: ["Web hook", "Api Rest", "Web App"],
-    purpose: ""
+    purpose: "",
+    thirdParty: [
+      "CamCCul, RainBow, CCC, Renaprov and another bank partners",
+      "Mobile Money Cameroon"
+    ]
   },
   {
     name: "Corpokash",
     role: "Backend Developer",
     tasks: ["implementation of loan microservice"],
-    imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Spring Boot"],
     category: ["Web hook", "Api Rest"],
-    purpose: ""
+    purpose: "",
+    thirdParty: ["People Finance", "Mobile Money Cameroon"]
   },
   {
     name: "Mokekash",
     role: "Backend Developer",
     tasks: ["implementation of subscription microservice"],
-    imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Spring Boot"],
     category: ["Web hook", "Api Rest"],
-    purpose: ""
+    purpose: "",
+    thirdParty: ["Orange RDC"]
   },
   {
     name: "EPSI",
     role: "Maintainer",
     tasks: ["fix bug in the system"],
-    imgSrc: [""],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Spring Boot"],
     category: ["Web hook", "Api Rest"],
-    purpose: ""
+    purpose: "",
+    thirdParty: ["Flutterwave", "Santa lucia"]
   },
   {
     name: "Momokash version 2",
@@ -145,10 +192,24 @@ const projectList: Project[] = [
       "testing of the system",
       "data migration"
     ],
-    imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Spring Boot", "React"],
     category: ["Web hook", "Api Rest", "Web App"],
-    purpose: ""
+    purpose: "",
+    thirdParty: [
+      "CamCCul, RainBow, CCC, Renaprov and another bank partners",
+      "Mobile Money Cameroon"
+    ]
   },
   {
     name: "Medvault",
@@ -158,10 +219,21 @@ const projectList: Project[] = [
       "analysis, conception, implementation of Desktop Application",
       "data migration"
     ],
-    imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Java", "Java Fx", "Spring Boot"],
     category: ["Desktop App"],
-    purpose: ""
+    purpose: "",
+    thirdParty: []
   },
   {
     name: "Competency test",
@@ -170,16 +242,25 @@ const projectList: Project[] = [
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Odoo", "OWL"],
     category: ["Web App", "Api Rest"],
-    purpose: ""
+    purpose: "",
+    thirdParty: []
   },
   {
     name: "Program Leadership",
     role: "Frontend Developer and Mobile Developer",
     tasks: ["planning", "analysis, conception, implementation and test"],
-    imgSrc: [""],
+    imgSrc: [
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg",
+      "/vercel.svg"
+    ],
     tech: ["Angular", "Ionic"],
     category: ["Web Application", "Mobile Application"],
-    purpose: ""
+    purpose: "",
+    thirdParty: []
   },
   {
     name: "Megatecc",
@@ -188,7 +269,8 @@ const projectList: Project[] = [
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Angular"],
     category: ["Web Application"],
-    purpose: ""
+    purpose: "",
+    thirdParty: []
   },
   {
     name: "Pricnac",
@@ -197,7 +279,8 @@ const projectList: Project[] = [
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Angular"],
     category: ["Web Application"],
-    purpose: ""
+    purpose: "",
+    thirdParty: ["PRICNAC", "AUF", "OACPS"]
   },
   {
     name: "PDVIR",
@@ -206,7 +289,17 @@ const projectList: Project[] = [
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Visual paradigm", "QGIS"],
     category: ["Business requirement"],
-    purpose: ""
+    purpose: "",
+    thirdParty: [
+      "DGI",
+      "CUY",
+      "MINPOSTEL",
+      "MINDHUB",
+      "ENEO",
+      "CAMWATER",
+      "FEICOM",
+      "CAMTEL"
+    ]
   }
 ];
 
