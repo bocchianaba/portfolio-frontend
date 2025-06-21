@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import React, { useState } from "react";
 import ImageModal from "./image-modal";
+import { Project } from "@/lib/interface";
 
 const ProjectCardItem: NextPage<Project> = (props: Project) => {
   const responsive = {
