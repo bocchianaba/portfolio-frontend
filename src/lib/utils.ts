@@ -239,7 +239,24 @@ const projectList: Project[] = [
     name: "Competency test",
     role: "Full Stack Developer",
     tasks: ["planning", "analysis, conception, implementation and test"],
-    imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
+    imgSrc: [
+      "/img/competency-test/adding-test.png",
+      "/img/competency-test/adding-test-2.png",
+      "/img/competency-test/all-test-view.png",
+      "/img/competency-test/applicant-management-3.png",
+      "/img/competency-test/applicant-manager-detail.png",
+      "/img/competency-test/applicant-manager-list.png",
+      "/img/competency-test/candidate-result.png",
+      "/img/competency-test/candidate-view.png",
+      "/img/competency-test/candidate-view-2.png",
+      "/img/competency-test/candidate-view-3.png",
+      "/img/competency-test/expert-interface.png",
+      "/img/competency-test/field-details.png",
+      "/img/competency-test/field.png",
+      "/img/competency-test/list-user.png",
+      "/img/competency-test/login.png",
+      "/img/competency-test/question-view.png"
+    ],
     tech: ["Odoo", "OWL"],
     category: ["Web App", "Api Rest"],
     purpose: "",
@@ -381,12 +398,48 @@ export const stackList = [
     name: "Figma"
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
     name: "TailwindCSS"
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+    name: "Spring Boot"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+    name: "Django"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/odoo/odoo-plain.svg",
+    name: "Odoo"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    name: "Docker"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg",
+    name: "Azure"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg",
+    name: "Angular"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg",
+    name: "IntelliJ"
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg",
+    name: "Jenkins"
+  },
+  {
+    img: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flutterwave_Logo.png",
+    name: "Flutterwave"
   }
 ];
 

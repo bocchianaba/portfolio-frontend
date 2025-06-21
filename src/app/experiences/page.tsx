@@ -11,8 +11,8 @@ interface Props {}
 
 const ExperiencePage: NextPage<Props> = ({}) => {
   return (
-    <div className="flex flex-col items-center justify-center pb-8">
-      <h1 className="page_title">My Experiences</h1>
+    <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
+      <h1 className="page_title mt-32">My Experiences</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

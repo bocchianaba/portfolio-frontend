@@ -2,6 +2,8 @@ import { NextPage } from "next";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import React, { useState } from "react";
+import ImageModal from "./image-modal";
 
 const ProjectCardItem: NextPage<Project> = (props: Project) => {
   const responsive = {
@@ -21,6 +23,18 @@ const ProjectCardItem: NextPage<Project> = (props: Project) => {
       partialVisibilityGutter: 40
     }
   };
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalIndex, setModalIndex] = useState(0);
+
+  const openModal = (index: number) => {
+    setModalIndex(index);
+    setModalOpen(true);
+  };
+  const closeModal = () => setModalOpen(false);
+  const prevImage = () => setModalIndex((prev) => (prev === 0 ? props.imgSrc.length - 1 : prev - 1));
+  const nextImage = () => setModalIndex((prev) => (prev === props.imgSrc.length - 1 ? 0 : prev + 1));
+
   return (
     <div className="mx-5">
       <figure className="md:flex md:justify-center md:items-center bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
@@ -44,9 +58,10 @@ const ProjectCardItem: NextPage<Project> = (props: Project) => {
             deviceType={"desktop"}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
+            arrows={false}
           >
             {props.imgSrc.map((img, index) => (
-              <div key={index}>
+              <div key={index} onClick={() => openModal(index)} className="cursor-pointer">
                 <Image
                   src={img}
                   width={200}
@@ -82,6 +97,15 @@ const ProjectCardItem: NextPage<Project> = (props: Project) => {
           </div>
         </div>
       </figure>
+      {modalOpen && (
+        <ImageModal
+          images={props.imgSrc}
+          currentIndex={modalIndex}
+          onClose={closeModal}
+          onPrev={prevImage}
+          onNext={nextImage}
+        />
+      )}
     </div>
   );
 };

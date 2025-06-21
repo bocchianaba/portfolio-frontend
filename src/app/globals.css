@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -65,6 +67,8 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
+    margin: 0;
   }
 }
 
@@ -72,3 +76,42 @@
   font-size: large;
   font: 45px bold;
 }
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.nav-link {
+  @apply flex items-center px-3 py-2 rounded-xl font-semibold text-blue-900/80 transition-all duration-200 hover:bg-yellow-100 hover:text-yellow-500 text-lg;
+}
+
+.nav-link[aria-current="page"], .nav-link[aria-selected="true"], .nav-link.active {
+  @apply bg-yellow-400 text-blue-900 shadow font-bold;
+}
+
+.nav-link svg {
+  @apply transition-colors duration-200 w-6 h-6 text-white;
+}
+
+/* Icône jaune uniquement au hover sur fond transparent */
+.nav-link:hover svg {
+  color: #facc15 !important;
+}
+
+/* Icône bleu foncé sur fond jaune (actif) */
+.nav-link[aria-current="page"] svg, .nav-link[aria-selected="true"] svg, .nav-link.active svg {
+  color: #1e293b !important; /* bleu foncé */
+}
+
+/* Suppression du style personnalisé sur les dates de la timeline */

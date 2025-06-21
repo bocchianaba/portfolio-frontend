@@ -7,8 +7,8 @@ interface Props {}
 
 const CompetencePage: NextPage<Props> = ({}) => {
   return (
-    <div className="flex flex-col items-center justify-center pb-8">
-      <h1 className="page_title px-20">About Me</h1>
+    <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
+      <h1 className="page_title px-20 mt-32">About Me</h1>
       <div className="mx-20 px-20 flex flex-col gap-4">
         <p className="mx-20 px-20">
           Hello! My name is Adrien Jean Bocchi NOA ANABA. I am originally from
@@ -34,14 +34,14 @@ const CompetencePage: NextPage<Props> = ({}) => {
           mobile development. I have become confident using the following
           technologies :
         </p>
-        <div className="mx-20 px-20 flex flex-wrap justify-around">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-8 w-full max-w-4xl mx-auto">
           {stackList.map((stack, index) => (
             <div
               key={index}
-              className="flex flex-col flex-10 justify-center items-center  w-1/10 mx-10"
+              className="flex flex-col items-center justify-center"
             >
-              <Image src={stack.img} width={"50"} height={"50"} alt={""} />
-              <p className="my-2">{stack.name}</p>
+              <Image src={stack.img} width={50} height={50} alt={stack.name} className="mb-2" />
+              <p className="text-white text-center font-semibold text-base">{stack.name}</p>
             </div>
           ))}
         </div>
