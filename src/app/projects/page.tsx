@@ -1,38 +1,12 @@
-"use client";
-import { BackpackIcon } from "@radix-ui/react-icons";
-import { NextPage } from "next";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import Image from "next/image";
-import ProjectCardItem from "@/components/ui/project-card-item";
-import { projectList } from "@/lib/utils";
+import { Metadata } from "next";
+import ProjectClientPage from "./project-client-page";
 
-interface Props {}
-
-const ProjectPage: NextPage<Props> = ({}) => {
-  return (
-    <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
-      <h1 className="page_title mt-32">My Projects</h1>
-      <div className="container container-md mx-20 py-10 flex flex-col gap-4">
-        {projectList.map((project: Project, index) => (
-          <ProjectCardItem
-            key={index}
-            name={project.name}
-            imgSrc={project.imgSrc}
-            tasks={project.tasks}
-            tech={project.tech}
-            category={project.category}
-            purpose={project.purpose}
-            role={project.role}
-            thirdParty={project.thirdParty}
-          />
-        ))}
-      </div>
-    </div>
-  );
+export const metadata: Metadata = {
+    title: "Projets",
+    description: "Explorez les projets réalisés par Adrien NOA ANABA, incluant des applications web, des systèmes backend et des intégrations complexes.",
+    keywords: ["Projets", "Adrien NOA ANABA", "Portfolio", "Développement Web", "Full-Stack", "Java", "Angular", "Odoo"],
 };
 
-export default ProjectPage;
+export default function ProjectPage() {
+    return <ProjectClientPage />;
+}

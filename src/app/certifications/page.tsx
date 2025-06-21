@@ -1,4 +1,11 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Certifications",
+    description: "Consultez les certifications professionnelles de Adrien NOA ANABA, incluant des certifications Microsoft Azure et autres.",
+    keywords: ["Certifications", "Adrien NOA ANABA", "Microsoft Azure", "Azure Fundamentals", "Développement"],
+};
 
 const certifications = [
   {

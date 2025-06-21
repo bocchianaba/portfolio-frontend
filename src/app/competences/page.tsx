@@ -1,14 +1,20 @@
 import { stackList } from "@/lib/utils";
-import { NextPage } from "next";
+import { Metadata, NextPage } from "next";
 
 import Image from "next/image";
+
+export const metadata: Metadata = {
+    title: "Compétences",
+    description: "Découvrez les compétences techniques de Adrien NOA ANABA. Maîtrise de technologies front-end et back-end, bases de données, et outils de développement.",
+    keywords: ["Compétences", "Adrien NOA ANABA", "Développeur", "Java", "Angular", "Spring Boot", "Odoo", "Docker", "Azure", "Next.js", "React", "TypeScript"],
+};
 
 interface Props {}
 
 const CompetencePage: NextPage<Props> = ({}) => {
   return (
     <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
-      <h1 className="page_title px-20 mt-32">About Me</h1>
+      <h1 className="page_title px-20 mt-32">Mes Compétences</h1>
       <div className="mx-20 px-20 flex flex-col gap-4">
         <p className="mx-20 px-20">
           Hello! My name is Adrien Jean Bocchi NOA ANABA. I am originally from
