@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Metadata } from "next";
+import { Certification } from "@/lib/interface";
 
 export const metadata: Metadata = {
     title: "Certifications",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
     keywords: ["Certifications", "Adrien NOA ANABA", "Microsoft Azure", "Azure Fundamentals", "Développement"],
 };
 
-const certifications = [
+const certifications: Certification[] = [
   {
     title: "Microsoft Certified: Azure Fundamentals",
     issuer: "Microsoft",

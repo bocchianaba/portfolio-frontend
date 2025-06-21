@@ -1,6 +1,7 @@
 import { IOptions, RecursivePartial } from "@tsparticles/engine";
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { Project, Stack } from "./interface";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -320,7 +321,7 @@ const projectList: Project[] = [
   }
 ];
 
-export const stackList = [
+export const stackList: Stack[] = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
     name: "HTML"

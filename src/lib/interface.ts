@@ -8,3 +8,16 @@ export interface Project {
   role: string;
   thirdParty: string[];
 }
+
+export interface Stack {
+  img: string;
+  name: string;
+}
+
+export interface Certification {
+  title: string;
+  issuer: string;
+  date: string;
+  link: string;
+  img: string;
+}
