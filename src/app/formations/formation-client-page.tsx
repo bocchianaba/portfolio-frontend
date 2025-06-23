@@ -14,7 +14,7 @@ export default function FormationClientPage() {
           <ellipse cx="150" cy="90" rx="140" ry="70" fill="currentColor" className="text-primary" />
         </svg>
         <div className="relative z-10 w-full flex flex-col items-center mt-10 pt-10">
-          <h1 className="mt-32 text-4xl md:text-5xl font-extrabold font-sans text-primary drop-shadow-lg mb-10 animate-fade-in-up" style={{ animationDelay: '0.2s', animationFillMode: 'both' }}>My formation detailed</h1>
+          <h1 className="page_title mt-32">Mes Formations</h1>
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -25,13 +25,13 @@ export default function FormationClientPage() {
               icon={<BackpackIcon />}
               visible
             >
-              <h3 className="vertical-timeline-element-title">Master degree</h3>
+              <h3 className="vertical-timeline-element-title">Diplôme d'Ingénieur</h3>
               <h4 className="vertical-timeline-element-subtitle">
-                National Advanced School of Yaounde, Melen
+                École Nationale Supérieure de Yaoundé, Melen
               </h4>
               <p>
-                student in MSP for the first 2 years, student in computer science
-                for the 4 years later
+                Étudiant en MSP pendant les 2 premières années, étudiant en informatique
+                pendant les 4 années suivantes
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -43,11 +43,11 @@ export default function FormationClientPage() {
               icon={<BackpackIcon />}
               visible
             >
-              <h3 className="vertical-timeline-element-title">Level 1</h3>
+              <h3 className="vertical-timeline-element-title">Niveau 1</h3>
               <h4 className="vertical-timeline-element-subtitle">
-                University of Yaounde 1, Ngoa Et Kelle
+                Université de Yaoundé 1, Ngoa Et Kelle
               </h4>
-              <p>Student in computer science</p>
+              <p>Étudiant en informatique</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -59,12 +59,12 @@ export default function FormationClientPage() {
               visible
             >
               <h3 className="vertical-timeline-element-title">
-                Baccalaureat, Probatoire, BEPC
+                Baccalauréat, Probatoire, BEPC
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Zang Mebanga Private Institute, Mimboman, Yaounde
+                Institut Privé Zang Mebanga, Mimboman, Yaoundé
               </h4>
-              <p>Study from 5è to Terminal</p>
+              <p>Études de la 5ème à la Terminale</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -76,12 +76,12 @@ export default function FormationClientPage() {
               visible
             >
               <h3 className="vertical-timeline-element-title">
-                Level 1 of high School
+                Niveau 1 du Lycée
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Catholic College Père Monti, Mfou, Yaounde
+                Collège Catholique Père Monti, Mfou, Yaoundé
               </h4>
-              <p>Student in class of 6è</p>
+              <p>Étudiant en classe de 6ème</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
@@ -94,9 +94,9 @@ export default function FormationClientPage() {
             >
               <h3 className="vertical-timeline-element-title">CEP</h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Bilingual School les Samaritains, Mimboman, Yaounde
+                École Bilingue les Samaritains, Mimboman, Yaoundé
               </h4>
-              <p>Primary School</p>
+              <p>École Primaire</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
@@ -107,11 +107,11 @@ export default function FormationClientPage() {
               icon={<BackpackIcon />}
               visible
             >
-              <h3 className="vertical-timeline-element-title">Student</h3>
+              <h3 className="vertical-timeline-element-title">Élève</h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Bilingual School les Grillons, Mimboman, Yaounde
+                École Bilingue les Grillons, Mimboman, Yaoundé
               </h4>
-              <p>Begining School</p>
+              <p>Début de scolarité</p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

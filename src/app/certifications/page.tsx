@@ -21,8 +21,8 @@ const certifications: Certification[] = [
 export default function CertificationPage() {
   return (
     <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
-      <h1 className="page_title px-20 mt-32">All My Certifications</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10 w-full max-w-6xl px-4">
+      <h1 className="page_title mt-32">Mes Certifications</h1>
+      <div className="flex flex-wrap justify-center gap-8 mt-10 px-4">
         {certifications.map((cert, idx) => (
           <a
             key={idx}
@@ -34,8 +34,8 @@ export default function CertificationPage() {
             <Image
               src={cert.img}
               alt={cert.title}
-              width={80}
-              height={80}
+              width={140}
+              height={140}
               className="mb-4 rounded-lg shadow"
             />
             <div className="text-lg font-bold text-primary text-center mb-1">{cert.title}</div>

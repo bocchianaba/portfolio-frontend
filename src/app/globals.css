@@ -73,8 +73,21 @@
 }
 
 .page_title {
-  font-size: large;
-  font: 45px bold;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(var(--primary));
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 768px) {
+  .page_title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 @keyframes fade-in-up {

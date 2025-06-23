@@ -40,7 +40,7 @@ const TabNavVertical: React.FC<TabNavVerticalProps> = ({ pathname }) => {
                 href="/"
               >
                 <HomeIcon className="mr-2" />
-                <Text>Home</Text>
+                <Text>Accueil</Text>
               </Link>
             </NavigationMenu.Trigger>
           </NavigationMenu.Item>
@@ -67,7 +67,7 @@ const TabNavVertical: React.FC<TabNavVerticalProps> = ({ pathname }) => {
               href="/experiences"
             >
               <RocketIcon className="mr-2" />
-              <Text>Experiences</Text>
+              <Text>Expériences</Text>
             </Link>
           </NavigationMenu.Item>
 
@@ -79,7 +79,7 @@ const TabNavVertical: React.FC<TabNavVerticalProps> = ({ pathname }) => {
               href="/projects"
             >
               <ArchiveIcon className="mr-2" />
-              <Text>Projects</Text>
+              <Text>Projets</Text>
             </Link>
           </NavigationMenu.Item>
 
@@ -91,7 +91,7 @@ const TabNavVertical: React.FC<TabNavVerticalProps> = ({ pathname }) => {
               href="/competences"
             >
               <Crosshair2Icon className="mr-2" />
-              <Text>Competences</Text>
+              <Text>Compétences</Text>
             </Link>
           </NavigationMenu.Item>
 
@@ -115,7 +115,7 @@ const TabNavVertical: React.FC<TabNavVerticalProps> = ({ pathname }) => {
               href="/contact-us"
             >
               <IdCardIcon className="mr-2" />
-              <Text>Contact Me</Text>
+              <Text>Contact</Text>
             </Link>
           </NavigationMenu.Item>
         </NavigationMenu.List>

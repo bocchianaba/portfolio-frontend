@@ -33,13 +33,13 @@ export default function Home() {
       </div>
       {/* Titre et effet de texte avec animation */}
       <div className="flex flex-col items-center text-center animate-fade-in-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
-        <h1 className="text-4xl md:text-5xl font-extrabold font-sans text-foreground drop-shadow-lg mb-2">Hello!</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold font-sans text-foreground drop-shadow-lg mb-2">Bonjour !</h1>
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-2">
-          I am <span className="text-foreground">Adrien Jean Bocchi NOA ANABA</span>
+          Je suis <span className="text-foreground">Adrien Jean Bocchi NOA ANABA</span>
         </h2>
         <h3 className="text-lg md:text-xl font-medium text-foreground mb-6">
           <ReactTypingEffect
-            text={["JavaScript Fullstack Developer","Python Backend Developer","Java Backend Developer","Odoo Frontend Developer","Odoo Integrator","Software Engineer ..."]}
+            text={["Développeur Full-Stack JavaScript","Développeur Backend Python","Développeur Backend Java","Développeur Frontend Odoo","Intégrateur Odoo","Ingénieur Logiciel ..."]}
             className="typical"
             eraseDelay={2000}
             speed={100}
@@ -48,7 +48,7 @@ export default function Home() {
           />
         </h3>
         <a href="#contact" className="mt-4 px-6 py-3 bg-primary text-primary-foreground font-bold rounded-full shadow-lg hover:bg-primary/80 transition-colors flex items-center gap-2 animate-fade-in-up" style={{ animationDelay: '0.6s', animationFillMode: 'both' }}>
-          <EnvelopeClosedIcon className="w-5 h-5" /> Contact me
+          <EnvelopeClosedIcon className="w-5 h-5" /> Me contacter
         </a>
       </div>
     </div>

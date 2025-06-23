@@ -6,7 +6,7 @@ import { Project } from "@/lib/interface";
 export default function ProjectClientPage() {
     return (
         <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
-        <h1 className="page_title mt-32">My Projects</h1>
+        <h1 className="page_title mt-32">Mes Projets</h1>
         <div className="container container-md mx-20 py-10 flex flex-col gap-4">
           {projectList.map((project: Project, index) => (
             <ProjectCardItem

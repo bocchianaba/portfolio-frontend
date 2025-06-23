@@ -84,7 +84,7 @@ const ProjectCardItem: NextPage<Project> = (props: Project) => {
             <p className="text-lg font-medium">{props.purpose}</p>
           </blockquote>
           <div>
-            <h1>Principal Task:</h1>
+            <h1>Tâches principales :</h1>
             <ol>
               {props.tasks.map((task, index) => (
                 <li key={index}>{task}</li>
@@ -92,9 +92,9 @@ const ProjectCardItem: NextPage<Project> = (props: Project) => {
             </ol>
           </div>
           <div>
-            <h1>Technologies used: {props.tech.join(", ")}</h1>
-            <h1>Result: {props.category.join(", ")}</h1>
-            <h1>Partner or third party: {props.thirdParty.join(", ")}</h1>
+            <h1>Technologies utilisées : {props.tech.join(", ")}</h1>
+            <h1>Résultat : {props.category.join(", ")}</h1>
+            <h1>Partenaires ou tiers : {props.thirdParty.join(", ")}</h1>
           </div>
         </div>
       </figure>

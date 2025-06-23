@@ -75,7 +75,7 @@ const MainNav: NextPage<Props> = (props) => {
         <TabNav.Root className="flex gap-2 flex-nowrap justify-center">
           <TabNav.Link active={pathname === "/"} href="/" className="nav-link">
             <HomeIcon className="mx-2" />
-            <p className="hidden lg:block">Home</p>
+            <p className="hidden lg:block">Accueil</p>
           </TabNav.Link>
           <TabNav.Link active={pathname === "/formations"} href="/formations" className="nav-link">
             <BackpackIcon className="mx-2" />
@@ -83,15 +83,15 @@ const MainNav: NextPage<Props> = (props) => {
           </TabNav.Link>
           <TabNav.Link active={pathname === "/experiences"} href="/experiences" className="nav-link">
             <RocketIcon className="mx-2" />
-            <p className="hidden lg:block">Experiences</p>
+            <p className="hidden lg:block">Expériences</p>
           </TabNav.Link>
           <TabNav.Link active={pathname === "/projects"} href="/projects" className="nav-link">
             <ArchiveIcon className="mx-2" />
-            <p className="hidden lg:block">Projects</p>
+            <p className="hidden lg:block">Projets</p>
           </TabNav.Link>
           <TabNav.Link active={pathname === "/competences"} href="/competences" className="nav-link">
             <Crosshair2Icon className="mx-2" />
-            <p className="hidden lg:block">Competences</p>
+            <p className="hidden lg:block">Compétences</p>
           </TabNav.Link>
           <TabNav.Link active={pathname === "/certifications"} href="/certifications" className="nav-link">
             <StarFilledIcon className="mx-2" />
@@ -99,7 +99,7 @@ const MainNav: NextPage<Props> = (props) => {
           </TabNav.Link>
           <TabNav.Link active={pathname === "/contact-us"} href="/contact-us" className="nav-link">
             <IdCardIcon className="mx-2" />
-            <p className="hidden lg:block">Contact Me</p>
+            <p className="hidden lg:block">Contact</p>
           </TabNav.Link>
         </TabNav.Root>
       </div>

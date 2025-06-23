@@ -78,8 +78,8 @@ const particleOptions: RecursivePartial<IOptions> | undefined = {
 const projectList: Project[] = [
   {
     name: "GAV",
-    role: "Backend Developer ",
-    tasks: ["implementation, test and documentation of Transfer microservice"],
+    role: "Développeur Backend",
+    tasks: ["implémentation, test et documentation du microservice de transfert"],
     imgSrc: [
       "/vercel.svg",
       "/vercel.svg",
@@ -89,23 +89,23 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Spring Boot"],
-    category: ["Web hook", "Api Restful"],
+    category: ["Web hook", "API RESTful"],
     purpose: "",
     thirdParty: ["CamCCul", "Gimac", "iTech"]
   },
   {
     name: "Agent Financing",
-    role: "Team Lead ",
+    role: "Chef d'équipe",
     tasks: [
-      "planning",
-      "implementation of loan microservice",
-      "implementation of launcher microservice",
-      "implementation of tfj microservice",
-      "implementation of reconciliation microservice",
-      "implementation of sms reminder microservice",
-      "implementation of back-office",
-      "task repartition",
-      "testing of the system"
+      "planification",
+      "implémentation du microservice de prêt",
+      "implémentation du microservice de lancement",
+      "implémentation du microservice TFJ",
+      "implémentation du microservice de réconciliation",
+      "implémentation du microservice de rappel SMS",
+      "implémentation du back-office",
+      "répartition des tâches",
+      "tests du système"
     ],
     imgSrc: [
       "/vercel.svg",
@@ -116,17 +116,17 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Spring Boot", "React"],
-    category: ["Web hook", "Api Rest", "Web App"],
+    category: ["Web hook", "API REST", "Application Web"],
     purpose: "",
     thirdParty: [
-      "CamCCul, RainBow, CCC, Renaprov and another bank partners",
-      "Mobile Money Cameroon"
+      "CamCCul, RainBow, CCC, Renaprov et autres partenaires bancaires",
+      "Mobile Money Cameroun"
     ]
   },
   {
     name: "Corpokash",
-    role: "Backend Developer",
-    tasks: ["implementation of loan microservice"],
+    role: "Développeur Backend",
+    tasks: ["implémentation du microservice de prêt"],
     imgSrc: [
       "/vercel.svg",
       "/vercel.svg",
@@ -139,14 +139,14 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Spring Boot"],
-    category: ["Web hook", "Api Rest"],
+    category: ["Web hook", "API REST"],
     purpose: "",
-    thirdParty: ["People Finance", "Mobile Money Cameroon"]
+    thirdParty: ["People Finance", "Mobile Money Cameroun"]
   },
   {
     name: "Mokekash",
-    role: "Backend Developer",
-    tasks: ["implementation of subscription microservice"],
+    role: "Développeur Backend",
+    tasks: ["implémentation du microservice d'abonnement"],
     imgSrc: [
       "/vercel.svg",
       "/vercel.svg",
@@ -157,14 +157,14 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Spring Boot"],
-    category: ["Web hook", "Api Rest"],
+    category: ["Web hook", "API REST"],
     purpose: "",
     thirdParty: ["Orange RDC"]
   },
   {
     name: "EPSI",
-    role: "Maintainer",
-    tasks: ["fix bug in the system"],
+    role: "Mainteneur",
+    tasks: ["correction de bugs dans le système"],
     imgSrc: [
       "/vercel.svg",
       "/vercel.svg",
@@ -174,24 +174,24 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Spring Boot"],
-    category: ["Web hook", "Api Rest"],
+    category: ["Web hook", "API REST"],
     purpose: "",
     thirdParty: ["Flutterwave", "Santa lucia"]
   },
   {
     name: "Momokash version 2",
-    role: "Team Lead ",
+    role: "Chef d'équipe",
     tasks: [
-      "planning",
-      "implementation of loan microservice",
-      "implementation of launcher microservice",
-      "implementation of tfj microservice",
-      "implementation of reconciliation microservice",
-      "implementation of sms reminder microservice",
-      "implementation of back-office",
-      "task repartition",
-      "testing of the system",
-      "data migration"
+      "planification",
+      "implémentation du microservice de prêt",
+      "implémentation du microservice de lancement",
+      "implémentation du microservice TFJ",
+      "implémentation du microservice de réconciliation",
+      "implémentation du microservice de rappel SMS",
+      "implémentation du back-office",
+      "répartition des tâches",
+      "tests du système",
+      "migration de données"
     ],
     imgSrc: [
       "/vercel.svg",
@@ -205,20 +205,20 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Spring Boot", "React"],
-    category: ["Web hook", "Api Rest", "Web App"],
+    category: ["Web hook", "API REST", "Application Web"],
     purpose: "",
     thirdParty: [
-      "CamCCul, RainBow, CCC, Renaprov and another bank partners",
-      "Mobile Money Cameroon"
+      "CamCCul, RainBow, CCC, Renaprov et autres partenaires bancaires",
+      "Mobile Money Cameroun"
     ]
   },
   {
     name: "Medvault",
-    role: "Full Stack Developer",
+    role: "Développeur Full Stack",
     tasks: [
-      "planning",
-      "analysis, conception, implementation of Desktop Application",
-      "data migration"
+      "planification",
+      "analyse, conception, implémentation de l'Application Desktop",
+      "migration de données"
     ],
     imgSrc: [
       "/vercel.svg",
@@ -232,14 +232,14 @@ const projectList: Project[] = [
       "/vercel.svg"
     ],
     tech: ["Java", "Java Fx", "Spring Boot"],
-    category: ["Desktop App"],
+    category: ["Application Desktop"],
     purpose: "",
     thirdParty: []
   },
   {
-    name: "Competency test",
-    role: "Full Stack Developer",
-    tasks: ["planning", "analysis, conception, implementation and test"],
+    name: "Test de Compétence",
+    role: "Développeur Full Stack",
+    tasks: ["planification", "analyse, conception, implémentation et tests"],
     imgSrc: [
       "/img/competency-test/adding-test.png",
       "/img/competency-test/adding-test-2.png",
@@ -259,54 +259,55 @@ const projectList: Project[] = [
       "/img/competency-test/question-view.png"
     ],
     tech: ["Odoo", "OWL"],
-    category: ["Web App", "Api Rest"],
+    category: ["Application Web", "API REST"],
     purpose: "",
     thirdParty: []
   },
   {
     name: "Program Leadership",
-    role: "Frontend Developer and Mobile Developer",
-    tasks: ["planning", "analysis, conception, implementation and test"],
+    role: "Développeur Frontend et Mobile",
+    tasks: ["planification", "analyse, conception, implémentation et tests"],
     imgSrc: [
-      "/vercel.svg",
-      "/vercel.svg",
-      "/vercel.svg",
-      "/vercel.svg",
-      "/vercel.svg",
-      "/vercel.svg"
+      "/img/pl/1.png",
+      "/img/pl/2.png",
+      "/img/pl/3.png",
+      "/img/pl/4.png",
+      "/img/pl/5.png",
+      "/img/pl/6.png",
+      "/img/pl/7.png"
     ],
     tech: ["Angular", "Ionic"],
-    category: ["Web Application", "Mobile Application"],
+    category: ["Application Web", "Application Mobile"],
     purpose: "",
     thirdParty: []
   },
   {
     name: "Megatecc",
-    role: "Frontend Developer",
-    tasks: ["planning", "analysis, conception, implementation and test"],
+    role: "Développeur Frontend",
+    tasks: ["planification", "analyse, conception, implémentation et tests"],
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Angular"],
-    category: ["Web Application"],
+    category: ["Application Web"],
     purpose: "",
     thirdParty: []
   },
   {
     name: "Pricnac",
-    role: "Frontend Developer",
-    tasks: ["planning", "analysis, conception, implementation and test"],
+    role: "Développeur Frontend",
+    tasks: ["planification", "analyse, conception, implémentation et tests"],
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Angular"],
-    category: ["Web Application"],
+    category: ["Application Web"],
     purpose: "",
     thirdParty: ["PRICNAC", "AUF", "OACPS"]
   },
   {
     name: "PDVIR",
-    role: "Software Engineer",
-    tasks: ["planning", "data collection", "conception of BPMN diagrams"],
+    role: "Ingénieur Logiciel",
+    tasks: ["planification", "collecte de données", "conception de diagrammes BPMN"],
     imgSrc: ["/vercel.svg", "/vercel.svg", "/vercel.svg"],
     tech: ["Visual paradigm", "QGIS"],
-    category: ["Business requirement"],
+    category: ["Exigences métier"],
     purpose: "",
     thirdParty: [
       "DGI",

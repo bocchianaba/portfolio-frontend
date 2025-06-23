@@ -9,42 +9,42 @@ import "react-vertical-timeline-component/style.min.css";
 export default function ExperienceClientPage() {
     return (
         <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
-        <h1 className="page_title mt-32">My Experiences</h1>
+        <h1 className="page_title mt-32">Mes Expériences</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2023 - present"
+            date="2023 - présent"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<BackpackIcon />}
             visible
           >
             <h3 className="vertical-timeline-element-title">
-              Full Stack Developer
+              Développeur Full Stack
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              An Individual, Remote
+              Indépendant, Télétravail
             </h4>
-            <p>Full Stack Development, testing, Deployment</p>
+            <p>Développement Full Stack, tests, déploiement</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2023 - present"
+            date="2023 - présent"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<BackpackIcon />}
             visible
           >
-            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Ingénieur Logiciel</h3>
             <h4 className="vertical-timeline-element-subtitle">
               Credix CAM, Elig Essono
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, conception, testing, Team Leading, Back Development,
-              problem solving
+              Direction créative, Expérience utilisateur, Design visuel, Gestion
+              de projet, conception, tests, Leadership d'équipe, Développement backend,
+              résolution de problèmes
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -56,11 +56,11 @@ export default function ExperienceClientPage() {
             icon={<BackpackIcon />}
             visible
           >
-            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Ingénieur Logiciel</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Megatecc, Yaounde, Wada
+              Megatecc, Yaoundé, Wada
             </h4>
-            <p>Analysis, conception, frontend development and deployment</p>
+            <p>Analyse, conception, développement frontend et déploiement</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -72,14 +72,14 @@ export default function ExperienceClientPage() {
             visible
           >
             <h3 className="vertical-timeline-element-title">
-              Full Stack Developer
+              Développeur Full Stack
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Madia SARL, Biyem Assi
             </h4>
             <p>
-              Web Design, User Experience, Visual Design, SEO, Frontend
-              Development
+              Web Design, Expérience utilisateur, Design visuel, SEO, Développement
+              Frontend
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -91,13 +91,13 @@ export default function ExperienceClientPage() {
             icon={<BackpackIcon />}
             visible
           >
-            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Ingénieur Logiciel</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Kratos-Security - Yaounde, Elig-Essono
+              Kratos-Security - Yaoundé, Elig-Essono
             </h4>
             <p>
-              Problem solving, user experience, full stack development, project
-              management
+              Résolution de problèmes, expérience utilisateur, développement full stack, gestion
+              de projet
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -109,13 +109,13 @@ export default function ExperienceClientPage() {
             icon={<BackpackIcon />}
             visible
           >
-            <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Ingénieur Logiciel</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              An Individual - Yaoundé, Emana
+              Indépendant - Yaoundé, Emana
             </h4>
             <p>
-              User Experience, web design, problem solving, planning, full stack
-              development
+              Expérience utilisateur, web design, résolution de problèmes, planification, développement
+              full stack
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -128,12 +128,12 @@ export default function ExperienceClientPage() {
             visible
           >
             <h3 className="vertical-timeline-element-title">
-              An Individual - Ngousso
+              Indépendant - Ngousso
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              Software Development
+              Développement Logiciel
             </h4>
-            <p>problem solving, Full Stack development</p>
+            <p>Résolution de problèmes, développement Full Stack</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
@@ -144,11 +144,11 @@ export default function ExperienceClientPage() {
             icon={<BackpackIcon />}
             visible
           >
-            <h3 className="vertical-timeline-element-title">Internship</h3>
+            <h3 className="vertical-timeline-element-title">Stage</h3>
             <h4 className="vertical-timeline-element-subtitle">
               AFRITECH - Yaoundé, Marché Centrale
             </h4>
-            <p>Network installation and configuration, QoS improving</p>
+            <p>Installation et configuration réseau, amélioration QoS</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}

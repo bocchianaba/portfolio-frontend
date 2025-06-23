@@ -14,31 +14,31 @@ interface Props {}
 const CompetencePage: NextPage<Props> = ({}) => {
   return (
     <div className="relative flex flex-col items-center justify-center pb-8 min-h-screen bg-gradient-to-br from-blue-900 via-purple-800 to-blue-500 overflow-hidden">
-      <h1 className="page_title px-20 mt-32">Mes Compétences</h1>
+      <h1 className="page_title mt-32">Mes Compétences</h1>
       <div className="mx-20 px-20 flex flex-col gap-4">
         <p className="mx-20 px-20">
-          Hello! My name is Adrien Jean Bocchi NOA ANABA. I am originally from
-          Cameroon. During my time here, I gained valuable experience through
-          various entry-level positions, which greatly enhanced my work ethic,
-          communication skills, and adaptability.
+          Bonjour ! Je m'appelle Adrien Jean Bocchi NOA ANABA. Je suis originaire du
+          Cameroun. Au cours de mon parcours, j'ai acquis une expérience précieuse à travers
+          divers postes d'ingénieurs logiciels et développeurs, ce qui a grandement amélioré mon éthique de travail,
+          mes compétences en communication et mon adaptabilité.
         </p>
         <p className="mx-20 px-20">
-          My journey into the world of technology began with a strong passion
-          for problem-solving, which led me to pursue the Computer Systems
-          Technology program. Despite its challenges, I remained determined and
-          forged lasting friendships that supported me throughout this demanding
-          program. Throughout my studies at National Advanced School of Yaounde,
-          I had the opportunity to engage in fascinating projects.
+          Mon voyage dans le monde de la technologie a commencé par une passion forte
+          pour la résolution de problèmes, ce qui m'a conduit à poursuivre le programme
+          de Technologie des Systèmes Informatiques. Malgré ses défis, je suis resté déterminé et
+          j'ai forgé des amitiés durables qui m'ont soutenu tout au long de ce programme exigeant.
+          Tout au long de mes études à l'École Nationale Supérieure de Yaoundé,
+          j'ai eu l'opportunité de participer à des projets fascinants.
         </p>
         <p className="mx-20 px-20">
-          Notably, I contributed to the development of App, projects that
-          garnered recognition from my colleagues, instructors, and clients
-          alike. Working collaboratively within a team towards a shared
-          objective has been an incredibly rewarding and unique experience for
-          me. I am eager to continue exploring exciting projects in the future,
-          with a particular interest in web development and cross-platform
-          mobile development. I have become confident using the following
-          technologies :
+          Notamment, j'ai contribué au développement d'applications et de projets qui
+          ont reçu la reconnaissance de mes collègues, instructeurs et clients
+          de même. Travailler en collaboration au sein d'une équipe vers un objectif
+          partagé a été une expérience incroyablement enrichissante et unique pour
+          moi. Je suis impatient de continuer à explorer des projets passionnants à l'avenir,
+          avec un intérêt particulier pour le développement web et le développement
+          mobile multiplateforme. Je suis devenu confiant dans l'utilisation des technologies
+          suivantes :
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-8 w-full max-w-4xl mx-auto">
           {stackList.map((stack, index) => (
